@@ -1,0 +1,20 @@
+<head>
+  <title>pitch-detect</title>
+</head>
+
+<body>
+    {{> vexflow}}
+    <p>{{test}}</p>
+    <p>detune: {{detune}}</p>
+    <p>correlation: {{correlation}}</p>
+    <p>correlationIncrease: {{correlationIncrease}}</p>
+</body>
+
+<template name="vexflow">
+    <div class="screen">
+        <p class="help">?</p>
+        <p class="settings">*</p>
+        <svg class="wrapper" viewBox="0 0 100 180"></svg>
+    </div>
+
+</template>
